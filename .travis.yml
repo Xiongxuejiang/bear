@@ -1,4 +1,15 @@
+# 开发语言
 language: java
-
+# 语言版本
 jdk:
   - oraclejdk8
+
+# 仓库的分支
+branches:
+  only:
+  - master
+
+# 执行命令脚本
+script:
+ - echo 'test '
+ - echo 'test  ------------'
